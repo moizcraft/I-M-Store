@@ -1,0 +1,58 @@
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: auto;     
+    white-space: nowrap;
+    margin-top: 50px;  
+    text-align: center;
+
+}
+
+.Cards{
+    width: 240px;
+    padding: 10px 30px;
+}
+
+
+
+.card-title {
+  /* allow line break */
+  white-space: normal;
+  /* break long words also */
+  word-wrap: break-word;   /* old */
+  overflow-wrap: break-word; /* modern */
+  /* optional max lines look better */
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* max 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+/* Category buttons  */
+
+.category{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.category button{
+  border: none;
+  background: transparent;
+  width: 150px;
+}
+
+
+.navbar .dropdown-toggle::after {
+  display: none !important;
+}
+
+.Cards button:hover{
+  background-color: #1C2541 !important;
+  transform: translateY(-1px);
+}

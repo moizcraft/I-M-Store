@@ -1,0 +1,17 @@
+.uploadBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.uploadBtn button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(48, 48, 243);
+    color: white;
+    background-color: #1877F2;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+
+    cursor: pointer;
+}
